@@ -9,7 +9,6 @@ public void settings() {
 public void draw() {
   background(0);
   Sierpinski(0, 0, width, 0);
-  println(maxDepth);
 }
 
 public void Sierpinski(int x, int y, int len, int depth) {
