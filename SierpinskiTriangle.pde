@@ -1,9 +1,8 @@
 public int maxDepth = 8;
 public int size = 1000;
 
-public void settings() {
-  size(size, size);
-  noLoop();
+public void setup() {
+  size(1000, 1000);
 }
 
 public void draw() {
@@ -31,5 +30,4 @@ public void mousePressed() {
   if (mouseButton == RIGHT) {
     maxDepth = min(9, maxDepth + 1);
   }
-  redraw();
 }
