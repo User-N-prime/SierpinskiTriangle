@@ -1,8 +1,7 @@
 public int maxDepth = 8;
-public int size = 800;
 
 public void setup() {
-  size(800, 800);
+  size(1000, 1000);
   noLoop();
 }
 
